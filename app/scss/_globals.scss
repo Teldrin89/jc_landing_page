@@ -1,0 +1,20 @@
+// contains global variables used in all pages and formats
+html {
+    // allows to scale font with zoom
+    font-size: 100%;
+    // makes the size of elemnts to include padding in final width
+    box-sizing: border-box;
+}
+
+// wildcard elements (plus before and after)
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+// basic whole body style settings
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Public Sans', sans-serif;
+    line-height: 1.3;
+}
