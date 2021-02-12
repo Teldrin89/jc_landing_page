@@ -1,0 +1,14 @@
+// styling header portion of page
+.header {
+    
+    &_logo {
+        img {
+            display: block;
+        }
+    }
+
+    // menu for mobile page
+    &_menu {
+        display: block;
+    }
+}
