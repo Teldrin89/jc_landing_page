@@ -1,14 +1,39 @@
 // styling header portion of page
 .header {
+
+    nav {
+        padding: 24px;
+    }
     
     &_logo {
         img {
-            display: block;
+
         }
     }
 
     // menu for mobile page
     &_menu {
-        display: block;
+        span {
+            display: block;
+            width: 26px;
+            height: 2px;
+            background-color: $darkBlue;
+            // not selector to excluda last line
+            &:not(:last-child){
+                margin-bottom: 3px;
+            }
+        }
+    }
+
+    &_links {
+        a {
+            font-size: $font-small;
+            color: $grayishBlue;
+        }
+    }
+
+    &_cta {
+        font-size: $font-small;
+        color: $white;
     }
 }
