@@ -18,17 +18,27 @@
 <body>
 
   <header class='header'>
-    <nav class='flex flex-jc-sb'>
+    <nav class='flex flex-jc-sb flex-ai-c'>
       <!-- logo -->
-      <a href="/" class='logo'>
+      <a href="/" class='header_logo'>
         <img src="images/logo.svg" alt="Easybank">
       </a>
-      <!-- menu -->
-      <a href="#" class='hamburger'>
+      <!-- menu - mobile only -->
+      <a href="#" class='header_menu hide-for-desktop'>
         <span></span>
         <span></span>
         <span></span>
       </a>
+      <!-- menu links - desktop -->
+      <div class='header_links hide-for-mobile'>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Blog</a>
+        <a href="#">Careers</a>
+      </div>
+      <!-- button -->
+      <a href='#' class='button header_cta hide-for-mobile'>Request Invite</a>
     </nav>
     
   </header>
